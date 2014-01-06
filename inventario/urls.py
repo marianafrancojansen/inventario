@@ -5,7 +5,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'principal.views.index'),
+    url(r'^principal/$', 'principal.views.index'),
     url(r'^map/$', 'map.views.index'),
 
     url(r'^admin/', include(admin.site.urls)),

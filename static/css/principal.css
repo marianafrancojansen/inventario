@@ -1,35 +1,271 @@
 body { font-family: 'Museo' sans-serif;
-		color: #FFFFFF;
-		background: url('/static/img/Texturanegro.jpg') repeat;
-		opacity: 0.5;
+background-color: white;		
+}
+
+.full{
+  padding: 0 4px;
+  margin-right: 5px;
+  margin-left: -7px;
+  margin-top: 0px;
+}
+.col-md-6 {
+  padding: 0px;
+    
+}
+
+.row {
+  padding: 0px;
+  margin: 0 0 0 0; 
+
+  
+}
+
+.head  {
+  position: relative;
+  width: 450px;
+  height: 260px;
+}
+
+.unique {
+  position: relative;
+width: 456px;
+height: 520px;
+
+}
+
+
+.transboxunique {
+position: absolute;
+top: -20px;
+left: 7px;
+background-color: lightgrey;
+width: 450px;
+height: 520px;
+opacity: 0.7;
+border: 2px solid grey;
+}
+
+p.transboxunique 
+  {
+  text-align: left;
+  margin: 20px 5px 5px 5px; 
+  padding-left: 10px;
+  position: absolute;
+  border:none;
+  font-weight:bold;
+  font-family: "Museo", "sans-serif";
+  font-size: 20px;
+  color: rgb(0,0,0);
+}
+
+.transboxunique a {
+ text-align: justify;
+  top: 180px;
+  left: 10px;
+  position: absolute;
+  font-weight:bold;
+  color: black;
+  font-size: 40px;
+  font-family: "Museo", "sans-serif";
+  }
+
+.transbox {
+position: absolute;
+top: -15px;
+left: -5px;
+background-color: lightgrey;
+width: 450px;
+height: 270px;
+opacity: 0.6;
+border: 2px solid grey;
+}
+
+p.transbox  {
+  text-align: left;
+  margin: 10px 10px 5px 5px; 
+  padding-left: 10px;
+  position: ;
+  border:none;
+  font-weight:bold;
+  font-family: "Museo", "sans-serif";
+  font-size: 20px;
+  color: rgb(0,0,0);
+}
+
+p:hover {
+    color: rgb(255, 0, 82);
+
+  }
+  .transbox a {
+ text-align: justify;
+  top: 140px;
+  left: 10px;
+  position: absolute;
+  font-weight:bold;
+  color: black;
+  font-size: 30px;
+  font-family: "Museo", "sans-serif";
+  }
+
+  a:hover {
+color: rgb(235,230,14);
+
+  }
+ {  
+  -webkit-transition: -webkit-filter 0s;  
+  
+} 
+   {
+  
+  -webkit-filter: grayscale(100%);
+}
+
+  
+
+
+.logopositivo {
+  width: 270px;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/*.box {
+box-sizing: border-box;
+margin: 100px 0 100px 0;
+padding: 0px;
+border: 0px;
+width: 100%;
+background-color:yellow;
+opacity: .9;
+position: relative;
+z-index: 20;
+  }
+
+#first img { 
+width: 260px;
+height: 708px;
+position: absolute;
+left: 0px
+
+}
+
+#second img { 
+
+width: 260px;
+height: 708px;
+position: absolute;
+left: 400px;
 
 
 }
 
-#logonegativo img {
-
-
-
-width: 400px;
-    height: 150px;
+#third img { 
+  width: 260px;
+height: 708px;
+position: absolute;
+left: 800px;
+float: right;
 
 }
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
+#fourth img { 
+
+width: 260px;
+height: 708px;
+position: absolute;
+left: 1200px;
+right: 0px;
+
 }
+
+
+
+
+
+  
+
+  .transbox
+  {
+  float: none;
+  margin: -710px -5px 5px 5px;
+  width: 250px;
+  height: 708px;
+  /*margin:30px 50px;*/
+  background-color: rgb(235,230,14);    
+  border:none;
+  opacity:0.7;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+/*.transbox p
+  {
+  text-align: left;
+  margin: 20px 5px 5px 5px; 
+  position: absolute;
+  border:none;
+  font-weight:bold;
+  font-family: "Museo", "sans-serif";
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+
+  }
+  p:hover {
+    color: white;
+
+  }
+  .transbox a {
+ text-align: justify;
+  top: 500px;
+  left: 10px;
+  position: absolute;
+  font-weight:bold;
+  color: black;
+  font-size: 20px;
+  font-family: "Museo", "sans-serif";
+  }
+  a:hover {
+color: white;
+
+  }
+  
+
+
+/*#header {
+ width: 100%;
+ top: 0;
+ height: 100px;
+ background-color: black;
+ z-index: 30;
  
+}*/
 
- 
-.pic {
+
+
+
+}
+
+/*html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }*/
+
+
+/*#content { padding-bottom: 16px; }*/
+
+
+
+ /*.pic {
   border: 10px solid #fff;  
   float: left;
-  height: 300px;
-  width: 300px;
-  margin: 20px;
+  height: 30px;
+  width: 15px;
+  margin: 5px;
   overflow: hidden;
    
   -webkit-box-shadow: 5px 5px 5px #111;
@@ -37,9 +273,9 @@ width: 400px;
 }
 
 .sidepan img {
-width: 1300px;
-height: 700px;
-  margin-left: 100px;
+width: 40px;
+height: 15px;
+  margin-left: 0px;
   -webkit-transition: margin 1s ease;
      -moz-transition: margin 1s ease;
        -o-transition: margin 1s ease;
@@ -49,8 +285,4 @@ height: 700px;
  
 .sidepan img:hover {
   margin-left: -35px;
-}
-
-
-
-
+} */
