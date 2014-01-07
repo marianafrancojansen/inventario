@@ -1,0 +1,28 @@
+
+body {
+	background-image: url('/static/img/diagmonds.png');
+}
+
+h1 {
+font-family: 'MuseoSans-300';
+src: local("/fonts/MuseoSans-300.otf");
+text-align: left;
+color: rgb(235,230,14);
+font-size: 50px;
+}
+.logopositivo {
+  width: 270px;
+  height: 70px;
+}
+
+.proceso {
+
+margin-left: 320px;
+margin-top: 20px;
+width: 650px;
+height:450px;
+opacity: 0.6;
+
+
+
+}

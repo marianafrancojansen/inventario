@@ -1,0 +1,43 @@
+
+body {
+	background-image: url('/static/img/diagmonds.png')
+}
+
+
+
+.jumbotron {
+	opacity: 0.3;
+	color: rgb(255, 0, 82);
+	width: 500px;
+	height: 150px;
+
+
+}
+
+h1 {
+	margin-top: 10px;
+	color: rgb(235,230,14);
+}
+
+
+.logopositivo {
+  width: 270px;
+  height: 70px;
+}
+
+.form-control {
+	background-image: url('/static/img/diagmonds.png');
+	border: none;
+	padding: 10px;
+	border-bottom: 10px;
+
+}
+
+input[type="text"] {
+	color: yellow;
+}
+
+input::-webkit-input-placeholder {
+   color: rgb(235, 230, 14);
+   
+} 

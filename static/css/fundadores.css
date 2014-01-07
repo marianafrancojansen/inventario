@@ -1,0 +1,49 @@
+body {
+	background-image: url('/static/img/metallic-texturepink.jpg');
+	font-family: 'MuseoSans-300';
+	src: local("/fonts/MuseoSans-300.otf");
+	text-align: center;
+}
+
+
+
+
+.bio  {
+
+width: 250px;
+height: 300px;
+
+}
+
+.logopositivo {
+  width: 270px;
+  height: 70px;
+}
+
+
+.thumbnail {
+
+height: 500px;
+left: 15px;
+background-image: url('/static/img/diagmonds.png');
+border: 1px solid black;
+
+}
+
+h3 {
+
+	font-family: 'MuseoSans-300';
+	src: local("/fonts/MuseoSans-300.otf");
+	text-align: center;
+	color: rgb(255, 0, 82) ;
+}
+
+p {
+
+	font-family: 'MuseoSans-300';
+	src: local("/fonts/MuseoSans-300.otf");
+	text-align: center;
+	color: rgb(255, 0, 82) ;
+}
+
+

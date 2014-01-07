@@ -1,0 +1,39 @@
+	body { font-family: 'MuseoSans-300';
+	src: local("/fonts/MuseoSans-300.otf");
+	text-align: center;
+	background-image: url('/static/img/metallic-texturepink.jpg');
+
+}
+
+h3 {
+	color: rgb(255, 0, 82);
+}
+
+.logopositivo {
+  width: 270px;
+  height: 70px;
+}
+.bio  {
+
+width: 250px;
+height: 300px;
+
+}
+
+.biounique  {
+
+width: 270px;
+height: 400px;
+
+}
+
+.btn {
+
+	color:  rgb(255, 0, 82);
+}
+
+.thumbnail {
+height: 500px;
+left: 15px;
+background-image: url('/static/img/diagmonds.png');
+border: 1px solid black;

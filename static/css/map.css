@@ -1,0 +1,44 @@
+body {
+	background-image: url('/static/img/metallic-texture.jpg')
+}
+
+h1 {
+	color: rgb(235,230,14);
+	font-family: 'MuseoSans-700';
+	src: local("/fonts/MuseoSans-700.otf");
+	text-align: center;
+
+}
+
+h2 {
+	color: white;
+	font-family: 'MuseoSans-700';
+	src: local("/fonts/MuseoSans-700.otf");
+	text-align: center;
+}
+.logopositivo {
+  width: 270px;
+  height: 70px;
+}
+
+.container {
+	
+	padding: 25px;
+	border: 10px 
+
+	}
+
+.col-xs-12 {
+	left: -10px;
+	padding: 10px;
+}
+
+.col-xs-6 {
+	left: -12px;
+	padding: 10px;
+}
+
+.col-xs-4 {
+
+	padding: 10px;
+}
