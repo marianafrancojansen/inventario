@@ -1,16 +1,11 @@
-<!DOCTYPE html >
-<html lang= "en">
-<head>
-<title>{%block title%}IS{%endblock%}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel= "stylesheet" href="/static/bootstrap/bootstrap-theme.min.css"  type="text/css/">
-  <link rel= "stylesheet" href="/static/bootstrap/bootstrap.min.css"  type="text/css/">
-  <link rel="stylesheet" type="text/css" href="/static/css/normalize.css" media= "screen">
-  <link rel="stylesheet" type="text/css" href="/static/css/grid.css" media= "screen">
-  <link rel="stylesheet" type="text/css" href="/static/css/fundadores.css"  media= "screen"/>
-  </head>
+{% extends "base.html" %}
 
-  <body>
+{% block stylesheet %}
+  <link rel="stylesheet" type="text/css" href="/static/css/fundadores.css"  media= "screen"/>
+{% endblock stylesheet %}
+
+ {% block body %}
+
 <div class="container">
 <div class="row">
   <div class="col-sm-6 col-md-4">
@@ -18,7 +13,7 @@
       <img class="bio" src="/static/img/adolfo.png" alt="adolfo">
       <div class="caption">
         <h3>Adolfo Franco</h3>
-        <p>Líder social en México</p>
+       
         <p><a href="#" class="btn btn-default" role="button">Conoce Más</a> 
       </div>
     </div>
@@ -28,7 +23,7 @@
       <img class="bio img-rounded" src="/static/img/adolfo.png" alt="adolfo">
       <div class="caption">
         <h3>Adolfo Franco</h3>
-        <p>Líder social en México</p>
+       
         <p><a href="#" class="btn btn-default" role="button">Conoce Más</a> 
       </div>
     </div>
@@ -38,13 +33,14 @@
       <img class="bio" src="/static/img/adolfo.png" alt="adolfo">
       <div class="caption">
         <h3>Adolfo Franco</h3>
-        <p>Líder social en México</p>
-        <p><a href="#" class="btn btn-default" role="button">Conoce Más</a> 
+       
+    <p><a href="#" class="btn btn-default" role="button">Conoce Más</a> 
       </div>
     </div>
   </div>
   </div>
 </div>
+{% endblock %}
 
 
 

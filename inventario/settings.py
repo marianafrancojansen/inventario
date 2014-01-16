@@ -45,6 +45,9 @@ INSTALLED_APPS = (
     'contacto',
     'inventarios',
     'lideres',
+    'vacantes',
+    
+
 
 )
 
@@ -94,3 +97,14 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static/'),
     )
+TEMPLATE_LOADERS = (
+                   'django.template.loaders.filesystem.Loader',
+                   'django.template.loaders.app_directories.Loader',
+                   )
+
+# # Static asset configuration
+from os.path import dirname, abspath, join
+BASE_DIR = dirname(dirname(abspath(__file__)))
+
+TEMPLATE_DIRS = [join(BASE_DIR, 'templates/')]
+ 

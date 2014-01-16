@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'^contacto/$', 'contacto.views.index'),
     url(r'^inventarios/$', 'inventarios.views.index'),
     url(r'^lideres/$', 'lideres.views.index'),
-
+    url(r'^vacantes/$', 'vacantes.views.index'),
+    url(r'contacto/gracias/$', 'contacto.views.gracias'),
     url(r'^admin/', include(admin.site.urls)),
 )

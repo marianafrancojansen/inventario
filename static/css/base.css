@@ -1,0 +1,53 @@
+.logopositivo {
+margin-left: 50px;
+  width: 150px;
+  height: 60px;
+}
+
+.facebook {
+width: 30px;
+  height: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+}
+
+.twitter {
+width: 30px;
+  height: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+}
+
+.navbar-default {
+	background-color: rgb(0, 0, 0);
+	border-color: rgb(0, 0, 0);
+	height: 50px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+#bs-example-navbar-collapse-1 {
+	background-color: rgb(0, 0, 0) ;
+	height: 20px;
+	color: rgb(235,230,14);
+}
+
+li {
+font-size: 17px;
+font-family: 'MuseoSans-300';
+ src: local("/fonts/MuseoSans-300.otf");
+ text-align: center;
+ padding: 10px;
+ margin-top: 7px;
+ margin-left: 40px;
+ color: rgb(235,230,14);
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: rgb(235,230,14);
+}

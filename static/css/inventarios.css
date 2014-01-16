@@ -1,9 +1,9 @@
 
 body {
-	background-image: url('/static/img/metallic-texturepink.jpg');
+	background-image: url('/static/img/diagmonds.png');
 }
 
 .logopositivo {
-  width: 270px;
-  height: 70px;
-}
+margin-left: 50px;
+  width: 150px;
+  height: 60px;

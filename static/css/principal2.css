@@ -1,0 +1,46 @@
+.index  { 
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+
+
+#inventory
+{
+	width: 100%;
+	max-height: auto;
+
+}
+
+
+
+
+
+
+/*Iphone*/
+@media screen and (max-width: 480px){
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width: 100%;
+}
+
+}
+
+
+@media screen and (min-width: 1000px){
+
+	
+}

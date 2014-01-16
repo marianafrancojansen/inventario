@@ -1,44 +1,79 @@
+
 body {
-	background-image: url('/static/img/metallic-texturepink.jpg')
-}
-
-h1 {
-	color: rgb(235,230,14);
-	font-family: 'MuseoSans-700';
-	src: local("/fonts/MuseoSans-700.otf");
-	text-align: center;
-
-}
-
-h2 {
-	color: white;
-	font-family: 'MuseoSans-700';
-	src: local("/fonts/MuseoSans-700.otf");
-	text-align: center;
-}
-.logopositivo {
-  width: 270px;
-  height: 70px;
+	background-image: url('/static/img/diagmonds.png');
+	font-family: 'MuseoSans-300';
+ src: local("/fonts/MuseoSans-300.otf");
 }
 
 .container {
-	
-	padding: 25px;
-	border: 10px 
-
-	}
-
-.col-xs-12 {
-	left: -10px;
-	padding: 10px;
+	margin-top: 20px;
 }
 
-.col-xs-6 {
-	left: -12px;
-	padding: 10px;
+.jumbotron {
+	opacity: 0.3;
+	color: rgb(235,230,14);
+	width: 500px;
+	height: 150px;
+	margin-left: 250px;
+	margin-right: 2500px;
+	background-color: black;
+
+
 }
 
-.col-xs-4 {
-
-	padding: 10px;
+h1 {
+	margin-top: 10px;
+	color: rgb(235,230,14);
+	text-align: center;
+	font-family: 'MuseoSans-300';
+ src: local("/fonts/MuseoSans-300.otf");
 }
+
+h2
+{
+margin-top: 10px;
+	color: rgb(235,230,14);
+	text-align: center;
+	font-family: 'MuseoSans-300';
+ src: local("/fonts/MuseoSans-300.otf");
+
+}
+
+
+
+.form-control {
+	background-color: rgb(0, 0, 0);
+	border: none;
+	padding: 10px;
+	border-bottom: 10px;
+	width: 500px;
+	margin-left: 250px;
+	margin-right: 250px;
+	opacity: 0.5;
+	color: rgb(235,230,14);
+
+}
+
+input[type="placeholder"] {
+	color: yellow;
+}
+
+.btn {
+	margin-left: 250px;
+	width: 500px;
+	background-color: rgb(0, 0, 0);
+	border: none;
+	color: rgb(235,230,14);
+	opacity: 0.5;
+
+}
+
+
+
+
+
+a {
+	color: rgb(235,230,14);
+	font-family: 'MuseoSans-300';
+ src: local("/fonts/MuseoSans-300.otf");
+ text-shadow: none;

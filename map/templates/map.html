@@ -1,86 +1,38 @@
-<!DOCTYPE html>
-<html lang= "en">
-<head>
-<head>
-	<title>{%block title%}IS{%endblock%}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel= "stylesheet" href="/static/bootstrap/bootstrap-theme.min.css"  type="text/css/">
-  <link rel= "stylesheet" href="/static/bootstrap/bootstrap.min.css"  type="text/css/">
-  <link rel="stylesheet" type="text/css" href="/static/css/normalize.css" media= "screen">
-  <link rel="stylesheet" type="text/css" href="/static/css/grid.css" media= "screen">
-  <link rel="stylesheet" type="text/css" href="/static/css/map.css"  media= "screen"/>
-  <script type="text/javascript" src="/static/bootstrap/bootstrap.min.js"></script>
-</head>
+{% extends "base.html" %}
 
-</head>
-<body>
+{% block stylesheet %}
+  <link rel="stylesheet" type="text/css" href="/static/css/map.css"  media= "screen"/>
+{% endblock stylesheet %}
+
+
+{% block body %}
 <h1>Mapa de Soluciones Sociales</h1>
-<h2>Ayudanos a identificar soluciones innovadoras a problemas sociales que puedan ser replicadas en todo el país. </h2>
+<h2>Ayudanos a identificar soluciones innovadoras<br> para problemas sociales que puedan ser replicadas en todo el país. </h2>
 
 
 
 <div class="container">
-<div class="row">
-  <div class="col-xs-12">
-    <input type="text" class="form-control" placeholder="Nombre del Proyecto"> 
+<form role="form"  action="contacto/gracias/" method="POST"> {% csrf_token %}
+<input type="text" class="form-control" placeholder="Nombre" name= "NombreContacto">
+<input type="text" class="form-control" placeholder="Empresa/Organización" name="trabajo">
+<input type="text" class="form-control" placeholder="Correo Electrónico" name="CorreoContacto">
+<input type="text" class="form-control" placeholder="Página Web" name="WebContacto">
+<textarea class="form-control" rows="7" placeholder= "Mensaje" name="MensajeContacto"></textarea>
+ <div class="form-group">
+    <label for="exampleInputFile">Adjuntar Archivo</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Adjuntar más información.</p>
   </div>
-  <div class="col-xs-12">
-    <input type="text" class="form-control" placeholder="Nombre de la Organizacón"> 
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Listo
+    </label>
   </div>
-  <div class="col-xs-6">
-    <input type="text" class="form-control" placeholder="Nombre del Líder"> 
-  </div>
-<div class="col-xs-6">
-    <input type="text" class="form-control" placeholder="Correo Electrónico"> 
-  </div>
-  
-  <div class="col-xs-6">
-    <input type="text" class="form-control" placeholder="Calle"> 
-  </div>
-  
-  <div class="col-xs-6">
-    <input type="text" class="form-control" placeholder="Colonia"> 
-  </div>
+  <button type="submit" class="btn btn-default">Enviar</button>
+</form>
+
 </div>
 
-  <div class="col-xs-6"> 
-    <input type="text" class="form-control" placeholder="Ciudad">
-  </div>
-  <div class="col-xs-6">
-    <input type="text" class="form-control" placeholder="Estado">
-  </div>
-  <textarea class="form-control" rows="7" placeholder= "Descripción de la Innovación"></textarea>
-</div>
-</div>
-</div>
 
- <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img class="logopositivo" src="/static/img/logopositivo.jpg"></a>
-        </div>
+ {% endblock %}
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="/principal/">Principal</a></li>
-            <li><a href="#">Vision</a></li>
-            <li><a href="#">Proceso</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-          <form class="navbar-form navbar-left" role="Search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Busqueda</button>
-          </form>
-
-        </div><!-- /.navbar-collapse -->
-      </nav>
-    </body>
-    </html>
