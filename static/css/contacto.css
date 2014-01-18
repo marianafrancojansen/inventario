@@ -9,6 +9,13 @@ body {
 	width: 3
 }
 
+.logopositivo {
+margin-left: 5%;
+  width: 9.3em;
+  height: 3.75em;}
+
+
+
 .jumbotron {
 	opacity: 0.3;
 	color: rgb(235,230,14);
@@ -20,6 +27,13 @@ body {
 
 
 }
+
+
+.formsent {
+	margin-top: 20%;
+}
+
+
 
 h1 {
 	margin-top: 10px;
@@ -68,4 +82,8 @@ a {
  src: local("/fonts/MuseoSans-300.otf");
  text-shadow: none;
 
+}
+
+p {
+	color: rgb(235,230,14);
 }

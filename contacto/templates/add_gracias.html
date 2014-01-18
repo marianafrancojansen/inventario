@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block stylesheet %}
+  <link rel="stylesheet" type="text/css" href="/static/css/contacto.css"  media= "screen"/>
+{% endblock stylesheet %}
+
+
+{% block body %}
+
+  
+      <h1>Gracias</h1>
+
+        {% if not category_name_url %}
+            <div style="color: red;">The specified category does not exist!</div>
+        {% else %}
+            <form id="ContactoFeedForm_form" method="post" action="/contenido/add_gracias/">
+
+                {% csrf_token %}
+                {% for hidden in form.hidden_fields %}
+                    {{ hidden }}
+                {% endfor %}
+
+                {% for field in form.visible_fields %}
+                    {{ field.errors }}
+                    {{ field.help_text}}
+                    {{ field }}
+                {% endfor %}
+
+                <input type="submit" name="submit" value="Create Category" />
+            </form>
+        {% endif %}
+
+  
+
+  {% endblock %}

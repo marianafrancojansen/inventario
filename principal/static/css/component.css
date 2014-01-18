@@ -4,6 +4,7 @@ html, body,
 .cbp-fbscroller,
 .cbp-fbscroller section { 
 	height: 100%; 
+	font-size: 100%;
 }
 
 /* The nav is fixed on the right side  and we center it by translating it 50% 
@@ -11,9 +12,9 @@ html, body,
 .cbp-fbscroller > nav {
 	position: fixed;
 	z-index: 9999;
-	right: 100px;
+	right: 2%;
 	top: 50%;
-	width: 26px;
+	width: 1.625em;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -25,12 +26,13 @@ html, body,
 	position: relative;
 	z-index: 9999;
 	color: transparent; ;
-	width: 26px;
-	height: 26px;
+	width: 1.625em;
+	height: 1.625em;
 	outline: none;
-	margin: 25px 0;
+	margin: 2.5% 0;
 	border-radius: 50%;
-	border: 4px solid rgb(235,230,14);
+	border: 2% solid rgb(235,230,14);
+	font-size: 100%;
 }
 
 .no-touch .cbp-fbscroller > nav a:hover {
@@ -53,6 +55,18 @@ html, body,
 	background-attachment: fixed;
 }
 
+img {
+	max-width: 100%;
+}
+
+body {
+	font-size: 100%;
+}
+
+a {
+	font-size: 100%;
+}
+
 #fbsection1 {
 	background-image: url(../images/inventariobrand.png);}
 
@@ -71,7 +85,7 @@ html, body,
 #fbsection3 {
 	background-image: url(../images/map.jpg);
 	color: white;
-	font-size: 40px;}
+	font-size: 2.5em;}
 
 	#fbsection3 a{
 		color: rgb(255, 0, 82);

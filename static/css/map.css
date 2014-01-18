@@ -5,6 +5,12 @@ body {
  src: local("/fonts/MuseoSans-300.otf");
 }
 
+
+.logopositivo {
+margin-left: 5%;
+  width: 9.3em;
+  height: 3.75em;}
+
 .container {
 	margin-top: 20px;
 }
@@ -17,7 +23,6 @@ body {
 	margin-left: 250px;
 	margin-right: 2500px;
 	background-color: black;
-
 
 }
 
@@ -49,7 +54,7 @@ margin-top: 10px;
 	width: 500px;
 	margin-left: 250px;
 	margin-right: 250px;
-	opacity: 0.5;
+	opacity: 0.7;
 	color: rgb(235,230,14);
 
 }
@@ -69,11 +74,8 @@ input[type="placeholder"] {
 }
 
 
-
-
-
 a {
-	color: rgb(235,230,14);
-	font-family: 'MuseoSans-300';
+color: rgb(235,230,14);
+font-family: 'MuseoSans-300';
  src: local("/fonts/MuseoSans-300.otf");
- text-shadow: none;
+ text-shadow: none; }

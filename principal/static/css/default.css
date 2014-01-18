@@ -22,7 +22,10 @@ body {
     font-family: 'MuseoSans-700';
  	src: local("/fonts/MuseoSans-700.otf");
     color: rgb(235,230,14);
+    font-size: 100%;
 }
+
+img {max-width: 100%;}
 
 a {
 	color: #f0f0f0;
@@ -127,5 +130,5 @@ a:hover {
 }
 
  a {
-	margin-top: 50px;
+	margin-top: 5%;
 }

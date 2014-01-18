@@ -1,8 +1,13 @@
-.logopositivo {
-margin-left: 50px;
-  width: 150px;
-  height: 60px;
+img {
+	max-width: 100%;
 }
+
+
+
+.logopositivo {
+margin-left: 5%;
+  width: 9.3em;
+  height: 3.75em;}
 
 .facebook {
 width: 30px;
